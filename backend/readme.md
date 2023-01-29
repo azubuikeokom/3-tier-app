@@ -19,3 +19,12 @@ You get the backend server started by running the following commands:
 or 
 
     npm run start
+
+# Environment variables
+Before running running the program, make sure you set the following environment variables by exporting them in the same terminal process as the **node/npm** commands. Here are the environment variables used by the program. Export themm like so:
+
+    export HOST=xxxxx
+    export ROOT_USERNAME=xxxxxx
+    export ROOT_PASSWORD=xxxxxx
+
+If you choose to export with ansible, make sure you deloy **server.js** or **mysql-db.js** in thesame playbook as the exported variables.
