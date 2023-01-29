@@ -6,11 +6,11 @@ The application is made up of two nodejs programs; **server.js** and **mysql-db.
 ## Running Programs in the Project
 You create a database with an existing mysql server by running the **mysql-db.js** program on the machine-local machine or on the EC2. Run the following command:
 
-    node mysql-db,js
+    node mysql-db.js
 
 or
 
-    npm run creat-databse
+    npm run creat-database
 
 You get the backend server started by running the following commands:
 
